@@ -200,8 +200,8 @@
             <div class="column has-text-centered">
               <div class="publication-links">
                 <!-- TODO: replace # with real arXiv / paper / code URLs -->
-                <span class="link-block"><a href="#" class="external-link button is-normal is-rounded is-dark"><span class="icon"><i class="fas fa-file-pdf"></i></span><span>Paper</span></a></span>
-                <span class="link-block"><a href="#" class="external-link button is-normal is-rounded is-dark"><span class="icon"><i class="ai ai-arxiv"></i></span><span>arXiv</span></a></span>
+                <span class="link-block"><a href="https://arxiv.org/abs/2607.00987" class="external-link button is-normal is-rounded is-dark"><span class="icon"><i class="fas fa-file-pdf"></i></span><span>Paper</span></a></span>
+                <span class="link-block"><a href="https://arxiv.org/abs/2607.00987" class="external-link button is-normal is-rounded is-dark"><span class="icon"><i class="ai ai-arxiv"></i></span><span>arXiv</span></a></span>
                 <span class="link-block"><a href="https://github.com/KAIST-VICLab/AVSR-Diff" class="external-link button is-normal is-rounded is-dark"><span class="icon"><i class="fab fa-github"></i></span><span>Code</span></a></span>
               </div>
             </div>
@@ -560,7 +560,6 @@
     // in actually super-resolves (loads a higher-scale render) rather than merely
     // magnifying pixels. z=1 -> LR input (1x); (1,2]->2x, (2,4]->4x, (4,6]->6x, (6,8]->8x.
     const SCALE_LADDER = [
-      { maxZoom: 1, scale: 1 },
       { maxZoom: 2, scale: 2 },
       { maxZoom: 4, scale: 4 },
     ];
